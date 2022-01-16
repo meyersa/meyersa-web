@@ -1,3 +1,5 @@
+/* Main CSS by August Meyers for https://github.com/meyersa/meyersa-web */
+
 :root {
     --text-color: #413e3a;
     --text-secondary: #52483ac0;
@@ -6,20 +8,28 @@
     --accent-two: #FBD9B2;
 
 }
+/* Color Palette */
+
 ::selection {
     background: var(--accent-one);
 
 }
+/* To make the highlighting match the color Palette */
+
 ::-moz-selection {
     background: var(--accent-one);
 
 }
+/* Since mozilla does it differently */
+
 html {
     background: var(--background-color);
     color: var(--text-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+/* Initial setup, background color, font color, font style */
+
 .sidebar {
     margin: 0.5em;
     padding: 0.4em;
@@ -38,3 +48,4 @@ html {
     background: var(--background-color);
 
 }
+/* Styling the Link sidebar since it stays the same on both versions */

@@ -1,9 +1,14 @@
+/* Mobile CSS by August Meyers for https://github.com/meyersa/meyersa-web */
+
 @import url("main.css");
+/* Main CSS File for commons */
 
 .desktop {
     display: none;
 
 }
+/* Hiding all of the Desktop DIVs */
+
 h1 {
     text-align: center;
     font-size: 4em;

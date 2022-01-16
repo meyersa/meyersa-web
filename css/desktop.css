@@ -1,9 +1,14 @@
+/* Desktop CSS by August Meyers for https://github.com/meyersa/meyersa-web */
+
 @import url("main.css");
+/* Main CSS File for commons */
 
 .mobile {
     display: none;
 
 }
+/* Hiding all of the Mobile DIVs */
+
 h1 {
     font-size: 5em;
     font-weight: bold;
@@ -79,3 +84,4 @@ p {
     box-shadow: 1em 1em var(--accent-two);
 
 }
+/* Various shapes to fill the whitespace on the page */
