@@ -1,0 +1,64 @@
+@import url("main.css");
+
+.desktop {
+    display: none;
+
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    padding: 0.1em;
+    margin: 0 auto;
+
+}
+h2 {
+    padding: 1em 0 1em 0;
+    font-size: 1.5em;
+    line-height: 0;
+
+}
+p {
+    padding: 0.1rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--text-secondary);
+
+}
+html {
+    padding: 0; 
+    margin: 0;
+
+}
+header {
+    position: sticky;
+    background: var(--accent-two);
+    box-shadow: 0 1em var(--accent-one);
+    top: 0;
+
+}
+.half-one {
+    margin: auto;
+
+}
+.half-one img {
+    display: block;
+    margin: 2em;
+    width: 80%;
+    box-shadow: 1em 1em var(--accent-two);
+
+}
+.half-two {
+    margin: auto;
+    padding: 1em;
+    width: 90%;
+
+}
+.half-two a {
+    color: var(--accent-one);
+
+}
+.sidebar {
+    top: 70%;
+}

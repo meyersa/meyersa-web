@@ -1,0 +1,81 @@
+@import url("main.css");
+
+.mobile {
+    display: none;
+
+}
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 0;
+    padding: 1rem 1rem 0 0;
+
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 0;
+
+}
+p {
+    padding: 0.1rem;
+    margin: 0;
+    font-weight: 500;
+    color: var(--text-secondary);
+
+}
+.main-content {
+    display: flex;
+    padding: 7em 7em 0 1em;
+
+}
+.half-one {
+    margin: auto;
+
+}
+.half-one img {
+    display: block;
+    margin-left: auto;
+    margin-right: 3em;
+    width: 60%;
+    box-shadow: 1em 1em var(--accent-one);
+
+}
+.half-two {
+    width: 80%;
+    padding-right: 7em;
+
+}
+.half-two a {
+    color: var(--accent-one);
+
+}
+.one {
+    position: absolute;
+    height: 13em;
+    width: 10em;
+    top: 0;
+    right: 20em;
+    background: var(--accent-one);
+    box-shadow: 1em -1em var(--accent-two);
+
+}
+.two {
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    bottom: 0;
+    left: 10em;
+    background: var(--accent-one);
+    box-shadow: 1em 1em var(--accent-two);
+
+}
+.three {
+    position: absolute;
+    height: 10em;
+    width: 40em;
+    bottom: 5em;
+    right: 0;
+    background: var(--accent-one);
+    box-shadow: 1em 1em var(--accent-two);
+
+}

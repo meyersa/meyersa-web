@@ -1,0 +1,40 @@
+:root {
+    --text-color: #413e3a;
+    --text-secondary: #52483ac0;
+    --background-color: #FBEEDF;
+    --accent-one: #DEB983;
+    --accent-two: #FBD9B2;
+
+}
+::selection {
+    background: var(--accent-one);
+
+}
+::-moz-selection {
+    background: var(--accent-one);
+
+}
+html {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.sidebar {
+    margin: 0.5em;
+    padding: 0.4em;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 2.5em;
+    border-radius: 1em;
+    background: var(--accent-one);
+
+}
+.sidebar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: var(--background-color);
+
+}
