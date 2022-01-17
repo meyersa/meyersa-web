@@ -3,6 +3,11 @@
 @import url("main.css");
 /* Main CSS File for commons */
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .desktop {
     display: none;
 
@@ -14,7 +19,7 @@ h1 {
     font-size: 4em;
     font-weight: bold;
     padding: 0.1em;
-    margin: 0 auto;
+    margin: 0;
 
 }
 h2 {
