@@ -35,13 +35,13 @@ p {
 }
 .half-one {
     margin: auto;
-
+    width: 50%;
 }
 .half-one img {
     display: block;
     margin-left: auto;
     margin-right: 3em;
-    width: 60%;
+    width: 25em;
     box-shadow: 1em 1em var(--accent-one);
 
 }
